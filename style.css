@@ -1,0 +1,33 @@
+.checkerboard-container {
+  margin-top: 8rem;
+
+  display: grid;
+  place-items: center;
+}
+.row-container {
+  display: flex;
+}
+.piece-container {
+  width: 7rem;
+  height: 7rem;
+  border: 1px solid gray;
+
+  display: grid;
+  place-items: center;
+}
+.piece-container:hover {
+  background-color: aliceblue;
+  transition: all 0.5s linear;
+}
+.piece-container:active {
+  background-color: beige;
+  transition: all 0.5s linear;
+}
+
+.information-board-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+.player {
+  color: green;
+}
